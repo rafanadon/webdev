@@ -45,6 +45,7 @@
             7. To view the status branch and view if there is untracked files
             git status
 
+
             8. to select the local repository and connect this to the github repository use 
             git <dfn title="manage set of repository">remote</dfn> add <dfn title="This is a branch">origin</dfn> [your repository link / URL]
             
@@ -68,12 +69,54 @@
             15. To <dfn title="used to fetch and download content from a remote repository and immediately update the local repository to match that content. ">pull</dfn> your repository
             git pull [your repository link]. 
 
+            Output 
+
+                     git pull https://github.com/rafanadon/webdev
+                    From https://github.com/rafanadon/webdev
+                    * branch            HEAD       -> FETCH_HEAD
+                    Already up to date.
+                    
+
             16. After pulling the the repository you need to add the html file by using 
             git add [yourfilename].html
 
-            17. git commit <dfn title="it means message">-m</dfn> "[your commit message]"
+            17. git status to view the gitbash status
+
+            Output
+                    git status
+                    On branch main
+                    Your branch is up to date with 'origin/main'.
+                    
+                    Changes to be committed:
+                    (use "git restore --staged <file>..." to unstage)
+                            modified:   webdev.html
+            
+
+            18. git commit <dfn title="it means message">-m</dfn> "[your commit message]"
+            
+            Output 
+
+                    $ git commit -m "Updated"
+                    [main 11d0ed0] Updated
+                    1 file changed, 22 insertions(+), 2 deletions(-)
+                    
+
             
             18. git push <dfn title="It means Upstream or upload">-u</dfn>
+
+            Output
+                    git push -u
+                    Enumerating objects: 5, done.
+                    Counting objects: 100% (5/5), done.
+                    Delta compression using up to 4 threads
+                    Compressing objects: 100% (4/4), done.
+                    Writing objects: 100% (4/4), 1.48 KiB | 1.48 MiB/s, done.
+                    Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+                    To https://github.com/rafanadon/webdev.git
+                    83eebf9..cccac53  main -> main
+                    branch 'main' set up to track 'origin/main'.
+            
+            
             
             19. Congratulations! the html file is in the git hub repository now.
 

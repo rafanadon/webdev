@@ -46,16 +46,36 @@
             git status
 
             8. to select the local repository and connect this to the github repository use 
-            git <dfn title="manage set of repository">remote</dfn> add <dfn title="This is a branch">origin</dfn> https://github.com/your-repository/your-username/webdev-raf.git
+            git <dfn title="manage set of repository">remote</dfn> add <dfn title="This is a branch">origin</dfn> [your repository link / URL]
             
             9. to <dfn title="Update remote refs along with associated objects">push</dfn> the repository
             git push -u origin main 
 
             10. Git bash will need your email or user name 
             use
-            git config --global user.email baring your user email. 
+            git config --global user.email baring [your user email]. 
 
             11. Your done! Now, you can see your repository in github.
+
+            12. Create your own Html files by using the git bash
+            use
+            echo "" > [yourfile].html 
+
+            13. Code your html file in VS code 
+            
+            14. After you code your html file and want to put it in your github repository you need to pull first 
+
+            15. To <dfn title="used to fetch and download content from a remote repository and immediately update the local repository to match that content. ">pull</dfn> your repository
+            git pull [your repository link]. 
+
+            16. After pulling the the repository you need to add the html file by using 
+            git add [yourfilename].html
+
+            17. git commit <dfn title="it means message">-m</dfn> "[your commit message]"
+            
+            18. git push <dfn title="It means Upstream or upload">-u</dfn>
+            
+            19. Congratulations! the html file is in the git hub repository now.
 
         </code></pre>
     </div>

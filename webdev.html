@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="User" author="Rafael">
+    <title>Document</title>
+    <style>
+        h1 {text-align: center;}
+        hr {width: 55%;}
+
+    </style>
+</head>
+<body>
+
+    <h1> These are the steps to push a github repository</h1>
+    <hr>
+
+    <p>
+        First lets discuss what is git?<br>
+        git is a <dfn> free and open source </dfn> distributed control system design to handle <br>
+        everything from small to very large project with <mark> speed and efficiency</mark>
+    </p>
+    <div>
+        <h3>Here are the steps to push your code to your own repository.</h3>
+        <pre><code>
+            1. Create a folder specifically for your project
+            # mkdir project 1
+
+            2. use <dfn title="A free and open source control system">git</dfn> init
+
+            3. create a html file by using 
+            echo "" > README.md
+
+            4. To add a contents of the file README.md
+            use <mark> git add </mark> 
+            git add README.md
+
+            5. To <dfn title="Record changes to the repository">commit</dfn> the file
+            git commit -m "FIRST COMMIT"
+
+            6. Create <dfn title="This allows to develop features, fix bugs, or safely experiment with new ideas in the Repository">branch</dfn> 
+            git branch -M main 
+
+            7. To view the status branch and view if there is untracked files
+            git status
+
+            8. to select the local repository and connect this to the github repository use 
+            git <dfn title="manage set of repository">remote</dfn> add <dfn title="This is a branch">origin</dfn> https://github.com/your-repository/your-username/webdev-raf.git
+            
+            9. to <dfn title="Update remote refs along with associated objects">push</dfn> the repository
+            git push -u origin main 
+
+            10. Your done! Now, you can see your repository in github.
+
+        </code></pre>
+    </div>
+    
+</body>
+</html>

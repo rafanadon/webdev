@@ -1,0 +1,48 @@
+*{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    background-color: cyan;
+}
+
+.boxone{
+    text-align: left;
+    font-style: italic;
+    background-color: pink;
+}
+.boxtwo{
+    text-align: right;
+    font-family: Arial;
+    background-color: lightgreen;
+}
+.boxtre{
+    margin: 10px 10px 10px 10px;
+    border:5px black dotted;
+    background-color: white;
+}
+.boxfo{
+    color:green;
+    font-variant: small-caps;
+    background-color: orange;
+    border: 6px dashed;
+}
+.boxfi{
+    text-align: center;
+    font-family: Verdana;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.boxsi{
+    display:inline-block;
+    background-color: beige;
+}
+.boxse{
+    display: inline-block;
+    background-color: chartreuse;
+}
+.sesi{
+    margin-left: 950px;
+}

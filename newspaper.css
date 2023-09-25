@@ -1,0 +1,33 @@
+body{
+    background-color: cyan;
+}
+
+h1{
+    text-align: center; 
+    font-style: bold;
+    color: blue;
+}
+hr{
+    width: 100%;
+}
+h2{
+    text-align: center;
+
+}
+
+p{
+    line-height: 5px;
+}
+
+.subs{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.rat{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+

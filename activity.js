@@ -11,6 +11,6 @@ function submitForm() {
     console.log("Email: " + email);
     console.log("Phone #: " + phone);
     console.log("Age: " + age);
-    console.log("Address " + address);
+    console.log("Address: " + address);
 
 }

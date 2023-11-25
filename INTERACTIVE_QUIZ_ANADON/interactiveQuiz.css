@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url(https://www.bing.com/th?id=OADD2.7559525585433_1NXOU5V8O7L2UWO6XU&pid=21.2&c=3&w=300&h=157&dynsize=1&qlt=90);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}  
+
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#results-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

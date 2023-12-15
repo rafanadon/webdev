@@ -1,0 +1,129 @@
+*
+{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    overflow: auto;
+}
+body
+{
+    
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)65%, rgba(0,0,0,0.5)65%),url(https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}   
+
+.menu{
+    background: #1D2231;
+    text-align: center;
+}
+
+.logo {
+    width: 180px;
+    position: absolute;
+    top: -8.5%;
+    left: 3%;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+
+.require{
+    display: flexbox;
+    font-style: italic;
+    position: fixed;
+    
+}
+.require h1{
+    padding: 2rem;
+}
+.require .req{
+    background: #1D2231;
+    color:#fff;
+    margin-top: 100px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-left: 2rem;
+    padding-right: -15rem;
+    padding-bottom: 2rem;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* This section is to edit the boarder and spacing of the menu */
+.menu ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+}
+/* This section is for the link of menus */
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.active, .menu ul li:hover{
+    background: #B02E0C;
+    border-radius: 3px;
+}
+
+/* This section is to create space between menu and their icon */
+.menu .fa-solid{
+    margin-right: 8px;
+}
+
+
+img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 3rem;
+}
+
+Button {
+background-color: #B02E0C;
+font-size: 17px; 
+line-height: 17px; 
+padding: 5px; 
+border-radius: 4px; 
+}
+Button:hover {
+background: rgb(241, 27, 62); }
+
+@font-face {
+	font-family: 'dvd';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.ttf?bj2v8n') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.woff?bj2v8n') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.svg?bj2v8n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#dvd {
+  position: absolute;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 176px;
+  color: #fff;
+}
+
+#dvd:before {
+  font-family: 'dvd' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e900";
+  font-size: 175px;
+}

@@ -9,18 +9,23 @@
 </head>
 <body>
 
-    <div id="userInfoForm">
-        <label for="fullName">Last Name, First Name, M.I: </label>
-        <input type="text" id="fullName" required>
+    <div id="information">
+        <h1> Basic Information Sheet </h1>
 
-        <label for="email">Email address:</label>
-        <input type="email" id="email"required>
+        <label for="fullName"><u> Last Name, First Name, M.I:</u></label>
+        <input id="fullName">
 
-        <label for="phone"> Phone #:</label>
-        <input type="tel" id="phone" required>
+        <label for="email"><u>Email address:</u></label>
+        <input id="email">
 
-        <label for="age">Age:</label>
-        <input type="number" id="age" required>
+        <label for="phone"> <u>Phone #:</u></label>
+        <input id="phone" >
+
+        <label for="age"><u>Age:</u></label>
+        <input id="age">
+
+        <label for="address"><u> Address:</u></label>
+        <input id="address"> 
 
         <button onclick="submitForm()">Submit</button>
     </div>
